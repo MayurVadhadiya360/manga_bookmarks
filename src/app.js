@@ -17,14 +17,14 @@ app.set("views", "views");
 hbs.registerPartials("views/partials");
 
 // db connection
-MongoClient.connect(url, async (err, db)=>{
-    if(err) throw err;
-    console.log("db connected");
-    let dbo = db.db("myapp");
-    // let temp = await dbo.collection("genre").find();
-    // console.log(temp[0]);
+// MongoClient.connect(url, async (err, db)=>{
+//     if(err) throw err;
+//     console.log("db connected");
+//     let dbo = db.db("myapp");
+//     // let temp = await dbo.collection("genre").find();
+//     // console.log(temp[0]);
 
-});
+// });
 // mongoose.set('strictQuery', false);
 // mongoose.connect("mongodb://localhost:27017/myapp", async ()=>{
 //     console.log("db connected");
