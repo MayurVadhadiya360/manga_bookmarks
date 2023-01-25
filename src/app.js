@@ -37,7 +37,7 @@ hbs.registerPartials("views/partials");
 
 
 
-app.listen(process.env.PORT | 5556, ()=>{
+app.listen(process.env.PORT || 5556, ()=>{
     console.log("Server Started");
 });
 
