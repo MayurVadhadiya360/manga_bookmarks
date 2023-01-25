@@ -5,11 +5,11 @@ const bodyparser = require("body-parser");
 var jsonparser = bodyparser.json();
 
 const routes = express.Router();
-async function main(){
-    const client1 = new MongoClient(url);
-    await client1.connect();
-    item1 = await client1.db("myapp").collection("genre").find().toArray();
-}
+// async function main(){
+//     const client1 = new MongoClient(url);
+//     await client1.connect();
+//     item1 = await client1.db("myapp").collection("genre").find().toArray();
+// }
 
 routes.get("/", async (req,res)=>{
     // res.send("From routes");
