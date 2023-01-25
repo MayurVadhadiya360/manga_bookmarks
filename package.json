@@ -4,7 +4,7 @@
   "description": "This is to maintain progress in anime and manga",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "author": "Mayur Vadhadiya",
   "license": "ISC",
