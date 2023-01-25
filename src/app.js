@@ -6,11 +6,6 @@ const MongoClient = require('mongodb').MongoClient;
 // const url = "mongodb://localhost:27017/";
 const url = "mongodb+srv://mayur123:mayur123@cluster0.wqzsozx.mongodb.net/?retryWrites=true&w=majority";
 
-
-const records = require("./models/record_block");
-const genre = require("./models/genre_");
-
-
 const routes = require("./routes/main");
 
 app.use('/static', express.static('public'));
