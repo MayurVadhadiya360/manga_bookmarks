@@ -10,11 +10,11 @@ const routes = express.Router();
 //     await client1.connect();
 //     item1 = await client1.db("myapp").collection("genre").find().toArray();
 // }
-
+const client = new MongoClient(url);
 routes.get("/", async (req,res)=>{
     // res.send("From routes");
     // item = [0,1,2,3,4];
-    const client = new MongoClient(url);
+    
     try{
         await client.connect();
         item = await client.db("myapp").collection("genre").find().toArray();
