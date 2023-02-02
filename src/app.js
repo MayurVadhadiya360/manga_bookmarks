@@ -4,7 +4,7 @@ const app = express();
 // const mongoose = require('mongoose');
 const MongoClient = require('mongodb').MongoClient;
 // const url = "mongodb://localhost:27017/";
-const url = "mongodb+srv://mayur123:mayur123@cluster0.wqzsozx.mongodb.net/?retryWrites=true&w=majority";
+const url = "your mongo atlas link";
 
 const routes = require("./routes/main");
 
